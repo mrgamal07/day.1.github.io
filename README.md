@@ -1,7 +1,7 @@
 # Personal CV Page
 
 A simple, responsive basic web site built with HTML and CSS.
-[live preview]()
+[live preview](https://mrgamal07.github.io/day.1.github.io/)
 ## Technologies Used
 - HTML
 - CSS
