@@ -12,7 +12,6 @@ body {
 }
 
 main {
-    border: 1px solid black;
     border-radius: 10px;
     background-color: #fff;
     margin: 5px auto;
@@ -96,24 +95,32 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .work {
     background-color: rgb(174, 230, 248);
     padding: 15px;
-    border: 1px solid #000;
     border-radius: 5px;
 }
 
 .work h1 {
     text-align: center;
 }
-
+.work>.solve{
+    padding: 10px;
+    background-color: white;
+    border-radius:5px;
+}
+.work>.work2{
+    padding:10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius:5px;
+}
 .pr p {
     background-color: #fff;
     padding: 10px;
-    border: 1px solid #000;
     margin: 5px 0;
     font-size: 18px;
 }
@@ -147,14 +154,12 @@ main {
 .john {
     background-color: #fff;
     padding: 15px;
-    border: 1px solid #000;
     border-radius: 5px;
 }
 
 .edu {
     background-color: #fff;
     padding: 15px;
-    border: 1px solid #000;
     border-radius: 5px;
 }
 
@@ -238,6 +243,6 @@ main {
 
     .pt-2 {
         font-size: 14px;
-        margin-left: 20%;
-    }
+        margin-left:20%;
+}
 }
